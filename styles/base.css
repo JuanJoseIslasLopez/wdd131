@@ -17,7 +17,6 @@ nav ul {
     padding: 20px;  
     margin: 0;  
     background-color: gray;
-    height: 100;
   }
 
 nav ul li {
@@ -26,7 +25,6 @@ nav ul li {
   
 nav ul li a {
     text-decoration: none;
-    size: 100%;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-size: 150%;    
@@ -75,7 +73,7 @@ main {
 }
 
 .card1 h2 {
-    font-size: 1.5 em;
+    font-size: 1.5em;
     font-family:"Bebas Neue", sans-serif;
     text-align: center;
     background-color: rgb(23, 78, 112);
@@ -96,7 +94,7 @@ main {
 }
 
 .card2 h2 {
-    font-size: 1.5 em;
+    font-size: 1.5em;
     font-family:"Bebas Neue", sans-serif;
     text-align: center;
     background-color: rgb(23, 78, 112);
