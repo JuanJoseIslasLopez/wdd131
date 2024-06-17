@@ -84,13 +84,13 @@ main {
          
 }
 
-.card1 img{
+.me {
     width: 200px;
     border: #111;
     border-radius: 5%;
     float: right;
     margin: 10px;
-    margin-top: -140px;
+    margin-top: -130px;
 }
 
 .card2 h2 {
@@ -118,4 +118,10 @@ footer{
     padding: 1px; 
     margin-top: 20px; 
     text-align: center;
+}
+
+.flag{
+    margin-top: 10px;
+    margin-left: 180px;
+    width: 200px;
 }
