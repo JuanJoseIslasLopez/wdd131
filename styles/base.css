@@ -1,0 +1,45 @@
+
+header {
+    text-align: center;
+    background-color: rgb(23, 78, 112);
+    color: white;
+    font-family:"Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    align-items: center;
+    
+    }
+h1 {
+    line-height: 200px;
+}
+nav {
+    background-color: gray;
+    margin: 0 auto;
+    }
+
+nav a{
+    color: black;
+    size: 100%;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 150%;
+    font-style: normal;
+    text-align: justify;
+    text-decoration: none;
+    }
+
+nav a:hover{
+    color: white;
+}
+
+p{
+    font-family: "Open Sans", sans-serif;
+}
+
+a{
+    font-family: "Open Sans", sans-serif;
+}
+
+@media screen (min-width: 1000px) {
+    
+}
