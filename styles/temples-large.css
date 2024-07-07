@@ -1,0 +1,66 @@
+/* Larger view styles */
+@media only screen and (min-width: 768px) {
+    /* Navigation menu */
+    nav {
+        display: flex;
+        justify-content: center;
+        background-color: gray;
+    }
+    
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+    
+    nav ul li {
+        margin: 0 15px;
+    }
+
+    /* Header layout for larger view */
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+
+    header h1 {
+        margin: 0;
+        font-size: 2.5em;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+
+    .card {
+        border: 2px solid gray;
+        border-radius: 2%;
+        margin-top: 10px;
+    }
+
+    .card h2 {
+        font-size: 1.5em;
+        font-family: "Bebas Neue", sans-serif;
+        text-align: center;
+        background-color: rgb(23, 78, 112);
+        color: white;
+        margin: 0;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+    }
+
+    main p {
+        margin-top: 40px;
+        margin-left: 40px;
+        width: 65%;
+    }
+}
