@@ -1,5 +1,5 @@
 /* Larger view styles */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1500px) {
     /* Navigation menu */
     nav {
         display: flex;
