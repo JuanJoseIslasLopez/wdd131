@@ -1,36 +1,47 @@
+:root {
+    --primary-color: #d32f2f;
+    --font-family: 'Open Sans', sans-serif;
+}
+
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: var(--font-family), sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
+
 header {
-    background-color: #d32f2f;
+    background-color: var(--primary-color);
     color: white;
     text-align: center;
     padding: 1rem 0;
 }
+
 .hero {
     position: relative;
     text-align: center;
     color: white;
 }
+
 .hero img {
     width: 100%;
     height: auto;
 }
+
 .info, .weather {
     position: absolute;
     background: rgba(255, 255, 255, 0.8);
     padding: 1rem;
     border-radius: 5px;
 }
+
 .info {
     top: 20%;
     left: 5%;
 }
+
 .weather {
     bottom: 20%;
     right: 5%;
@@ -38,24 +49,34 @@ header {
     flex-direction: column;
     align-items: center;
 }
+
 .weather-icon {
     width: 50px;
     height: 50px;
     margin-bottom: 10px;
 }
+
 footer {
-    background-color: #d32f2f;
+    background-color: var(--primary-color);
     color: white;
     text-align: center;
     padding: 1rem 0;
     margin-top: auto;
 }
+
 footer p {
     margin: 0.5rem 0;
 }
+
 footer a {
     color: white;
     text-decoration: none;
+}
+
+footer::after {
+    content: " © 2024 Your Website";
+    display: block;
+    margin-top: 0.5rem;
 }
 
 /* Responsive styling */
