@@ -1,0 +1,143 @@
+/* temples.css */
+
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(23, 78, 112);
+    color: white;
+    padding: 1px;
+    position: relative;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+}
+
+.menu-btn {
+    display: none;
+    font-size: 2em;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+nav {
+    display: none;
+}
+
+nav.active {
+    display: block;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: gray;
+}
+
+nav ul li {
+    margin: 10px 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 150%;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: white;
+    background-color: #111;
+}
+
+.container {
+    max-width: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+.card {
+    border: 2px solid gray;
+    border-radius: 2%;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.card h2 {
+    font-size: 1.5em;
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+    background-color: rgb(23, 78, 112);
+    color: white;
+    margin: 0;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.card img {
+    width: 100%;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.card figcaption {
+    text-align: center;
+    font-style: italic;
+    padding: 10px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(23, 78, 112);
+    color: white;
+    padding: 1px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+@media (max-width: 500px) {
+    .menu-btn {
+        display: block;
+    }
+
+    nav ul {
+        display: block;
+    }
+}
+    
